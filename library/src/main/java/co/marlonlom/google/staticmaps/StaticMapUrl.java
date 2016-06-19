@@ -203,7 +203,7 @@ public final class StaticMapUrl {
 
         @Override
         public ICenter centered(float latitude, float longitude) {
-            this.builder.append(SEP_URL).append(PARAM_CENTER).append(latitude)
+            this.builder.append(PARAM_CENTER).append(latitude)
                     .append(",").append(longitude);
             return this;
         }
