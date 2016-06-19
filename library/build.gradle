@@ -16,7 +16,7 @@
  */
 
 apply plugin: 'com.android.library'
-apply from: 'maven­push.gradle'
+apply from: 'maven_push.gradle'
 
 android {
     compileSdkVersion 24
