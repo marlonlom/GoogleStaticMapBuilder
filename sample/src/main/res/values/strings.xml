@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Google Static Map Url Builder</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_retry">Retry</string>
+    <string name="locations_prompt">Select location</string>
+    <string name="snackbar_error_loading_img">Error loading image</string>
+    <string name="snackbar_sucess_loading_img">Image loaded</string>
+    <string name="pre_text">Select a location from the list, the generated url appears here.</string>
+    <string name="during_text">Preparing static map …</string>
+    <string name="post_text"><![CDATA[Select a location from the list, the generated url appears here.\nURL: _0]]></string>
+
+    <string-array name="spinner_locations">
+        <item>Buenos Aires, Argentina</item>
+        <item>Toronto, Canad\u00E1</item>
+        <item>Budapest, Hungary</item>
+        <item>Nairobi, Kenya</item>
+        <item>Tokyo, Japan</item>
+    </string-array>
+
+    <string-array name="spinner_coordinates">
+        <item>-34.6158037;-58.5033607</item>
+        <item>43.7181557;-79.5181425</item>
+        <item>47.4811281;18.9902191</item>
+        <item>-1.3047997;36.7073087</item>
+        <item>35.6732619;139.5703023</item>
+    </string-array>
+</resources>
