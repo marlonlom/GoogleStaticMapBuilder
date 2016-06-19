@@ -194,7 +194,7 @@ public final class StaticMapUrl {
          * From create.
          *
          * @param from
-         *         the url base for the static maps url
+         *         the url base for the static maps image url
          * @return the builder instance
          */
         public static IFrom from(String from) {
