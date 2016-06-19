@@ -2,8 +2,13 @@
 Utility for creating Google static maps url with a few simple options.
 
 ##Synopsis
-Consist in building static maps image urls, using options like latitude, longitude, zoom, image width and height, and adding markers to the map.
-It uses the _Fluent Builder pattern_ for doing exactly that.
+Sometimes, we need to present a grid screen with some google maps as thumbnails, but, for android apps, you need to include google play services, and use google maps api for loading `MapFragment` instances, specifically using _lite mode_.
+
+For a simpler approach, you can use the ![Google Static Maps API](https://goo.gl/0hG1pu) for construct such image map urls using some parameters.
+
+With this library, you can apply for the second note, yeah, you can build static maps image urls, using options like latitude, longitude, zoom, image width and height, and adding markers to the map.
+
+It uses the _Fluent Builder pattern_, making this process as simple as possible.
 
 [Demo](https://goo.gl/hI8T6S)
 
