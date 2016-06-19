@@ -15,7 +15,7 @@
  * under the License.
  */
 
-package co.marlonlom.google.staticmaps;
+package com.github.marlonlom.staticmaps_builder;
 
 /**
  * POJO Class that represents a static map marker.

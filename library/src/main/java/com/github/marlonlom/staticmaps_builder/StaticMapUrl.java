@@ -15,7 +15,7 @@
  * under the License.
  */
 
-package co.marlonlom.google.staticmaps;
+package com.github.marlonlom.staticmaps_builder;
 
 /**
  * Utility Class that builds a static map url.

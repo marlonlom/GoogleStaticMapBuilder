@@ -15,7 +15,7 @@
  * under the License.
  */
 
-package co.marlonlom.google.staticmaps.demo;
+package com.github.marlonlom.staticmaps_builder.demo;
 
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
@@ -31,14 +31,14 @@ import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.github.marlonlom.staticmaps_builder.StaticMapMarker;
+import com.github.marlonlom.staticmaps_builder.StaticMapUrl;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindArray;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import co.marlonlom.google.staticmaps.StaticMapMarker;
-import co.marlonlom.google.staticmaps.StaticMapUrl;
 
 /**
  * The type Main activity.
@@ -140,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
         descriptionText.setText(R.string.during_text);
 
         final String sampleImageMapUrl = generateImageMap(latitude, longitude);
+
         Picasso.with(getApplication()).load(sampleImageMapUrl).centerCrop()
                 .placeholder(R.drawable.default_staticmap)
                 .resize(240, 240).into(sampleImageView, new Callback() {

@@ -23,7 +23,7 @@
     android:layout_height="match_parent"
     android:id="@+id/home_coordinator_layout"
     android:fitsSystemWindows="true"
-    tools:context="co.marlonlom.google.staticmaps.demo.MainActivity">
+    tools:context="com.github.marlonlom.staticmaps_builder.demo.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

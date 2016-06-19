@@ -15,7 +15,7 @@
  * under the License.
  */
 
-package co.marlonlom.google.staticmaps;
+package com.github.marlonlom.staticmaps_builder;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -45,7 +45,6 @@ public class StaticMapUrlTest {
                 .mark(StaticMapMarker.create("0x4545AA", lat, lng).medium())
                 .build();
 
-        System.out.println(imageUrl);
         Assert.assertFalse(imageUrl.equalsIgnoreCase(""));
     }
 }
