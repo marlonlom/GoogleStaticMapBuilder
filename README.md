@@ -10,9 +10,23 @@ With this library, you can apply for the second note, yeah, you can build static
 
 It uses the _Fluent Builder pattern_, making this process as simple as possible.
 
-[Demo](https://goo.gl/hI8T6S)
+##Usage
+Add dependency.
 
-##Code Example
+```
+(Gradle)
+dependencies {
+  compile 'com.github.marlonlom:staticmaps-builder:1.0.0'
+}
+
+(Maven)
+<dependency>
+    <groupId>com.github.marlonlom</groupId>
+    <artifactId>staticmaps-builder</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 This repository contains the sample module, you can check it out.
 
 For creating static maps, use the `StaticMapUrl` class
@@ -39,6 +53,22 @@ StaticMapMarker.create(_color_, _latitude_, _longitude_).medium())
 The color for the marker can be set as a 24-bit color (example: color=0xFFFFCC) or a predefined color using the folowwing set (black, brown, green, purple, yellow, blue, gray, orange, red, white).
 
 The size of the marker is important, there are three methods, that must be used after _`create()`_ method: _`small()`, `medium()`, `tiny()`_
+
+###Demo
+
+Check the [Demo](https://goo.gl/hI8T6S) here.
+
+##Spread the word
+
+If you like this library, please tell others about it :thumbsup::thumbsup:
+
+<a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20awesome%20MPAndroidChart%20library%20on%20Github:%20https://github.com/marlonlom/staticmaps_builder" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/twitter_icon.png" title="Share on Twitter" width="35" height=35 />
+<a href="https://plus.google.com/share?url=https://github.com/marlonlom/staticmaps_builder" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/googleplus_icon.png" title="Share on Google+" width="35" height=35 />
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/marlonlom/staticmaps_builder" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/facebook_icon.png" title="Share on Facebook" width="35" height=35 />
+
+ - []()Follow me on **Twitter**: [**@Marlonlom**](https://twitter.com/marlonlom)
+ - Contact me on **LinkedIn**: [**Marlonlom**](https://co.linkedin.com/in/marlonlom)
+
 
 ###License
 
