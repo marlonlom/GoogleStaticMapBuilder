@@ -62,7 +62,7 @@ Check the [Demo](https://goo.gl/hI8T6S) here.
 
 If you like this library, please tell others about it :thumbsup::thumbsup:
 
-<a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20awesome%20MPAndroidChart%20library%20on%20Github:%20https://github.com/marlonlom/staticmaps_builder" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/twitter_icon.png" title="Share on Twitter" width="35" height=35 />
+<a href="https://twitter.com/intent/tweet?text=Showing%20many%20maps%20in%20a%20grid%3F%20Check%20out%20this%20awesome%20library%20on%20Github%3A%20https://github.com/marlonlom/staticmaps_builder" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/twitter_icon.png" title="Share on Twitter" width="35" height=35 />
 <a href="https://plus.google.com/share?url=https://github.com/marlonlom/staticmaps_builder" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/googleplus_icon.png" title="Share on Google+" width="35" height=35 />
 <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/marlonlom/staticmaps_builder" target="_blank" title="share to twitter" style="width:100%"><img src="https://github.com/marlonlom/staticmaps_builder/blob/master/design/facebook_icon.png" title="Share on Facebook" width="35" height=35 />
 
